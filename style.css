@@ -1,0 +1,62 @@
+#editor {
+    margin-top: -1vw;
+    min-height: 500px;
+    height: 40vw;
+    width: 100%;
+}
+.topic{
+	color: white;
+	font-family:cursive;
+	font-style: italic;
+	padding-top: 2vw;
+	display: inline-flex;
+}
+
+.boders {
+	position: relative;
+	margin: auto;
+	background-color: #1F456E;
+	transition: 0.6s ease;
+      border-radius: 1.3020vw 1.3020vw 1.3020vw 1.3020vw;
+	text-align: center;
+	}
+
+.navs {
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	display:inline-flex;
+	}
+p{
+	font-size: 80% ;
+	position:relative;
+	bottom: 0vh;
+	border-radius: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 0.2vw;
+	background: white;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+
+}
+.icon{
+	padding-bottom: -2vw;
+	padding-left: 0.5vw;
+}
+p:before{
+	position: absolute;
+	content: "";
+	height: 0.6vw;
+	width:0.6vw;
+	background:white;
+	top:-0.28vw;
+	right:30%;
+	transform: translatex(-50%) rotate(45deg);
+}
+
+.icon:hover p{
+	bottom: -1.6041vw;
+	opacity: 1;
+	pointer-events: auto;
+}
