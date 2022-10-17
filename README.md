@@ -1,2 +1,2 @@
 # Text-board-online-
-Simple Text Editor build with HTML , CSS , Java Script
+Simple Text Editor build with HTML5 , CSS , Java Script
